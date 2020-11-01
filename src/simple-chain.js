@@ -11,9 +11,9 @@ const chainMaker = {
     if(value===undefined){
       this.mass=[];
     }
-    if(value==''){
-      this.mass.push('( 0 )');
-    }
+   // if(value==''){
+      //this.mass.push('( 0 )');
+   // }
     this.mass.push('( '+value+' )');
     return this;
     

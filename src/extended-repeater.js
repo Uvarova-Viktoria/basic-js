@@ -11,7 +11,6 @@ module.exports = function repeater(str, options) {
   let addRepeatTimes=options.additionRepeatTimes;
   let additionSeparator=options.additionSeparator;
 
-
   
   let arr=[];
   let arrEl=[];
